@@ -3,7 +3,7 @@ module github.com/artnoi43/w3utils
 go 1.19
 
 require (
-	github.com/artnoi43/gsl v0.0.0-20230110191511-0305657a8a3a
+	github.com/artnoi43/gsl v0.0.0-20230111150757-a89fdc6b03ca
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/pkg/errors v0.9.1
 )

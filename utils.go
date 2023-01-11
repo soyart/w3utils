@@ -1,7 +1,7 @@
 package w3utils
 
 import (
-	"github.com/artnoi43/gsl/gslutils"
+	"github.com/artnoi43/gsl"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 )
@@ -11,7 +11,7 @@ import (
 func AccrueEvents(contractABI abi.ABI, eventKeys ...string) []abi.Event {
 	var events []abi.Event
 	if len(eventKeys) == 0 {
-		return gslutils.SliceFromMapValues(contractABI.Events)
+		return gsl.SliceFromMapValues(contractABI.Events)
 	}
 
 	for key, event := range contractABI.Events {

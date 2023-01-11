@@ -1,6 +1,6 @@
 github.com/VictoriaMetrics/fastcache v1.6.0 h1:C/3Oi3EiBCqufydp1neRZkqcwmEiuRT9c3fqvvgKm5o=
-github.com/artnoi43/gsl v0.0.0-20230110191511-0305657a8a3a h1:VqaSFfHPXEjKJ92EdpnUwA7B8/gHubsvTAjQ/E7WBlI=
-github.com/artnoi43/gsl v0.0.0-20230110191511-0305657a8a3a/go.mod h1:gorfvzKl2yZInhN36N4OpMDxc/aXWX7QZ0ileoehaz8=
+github.com/artnoi43/gsl v0.0.0-20230111150757-a89fdc6b03ca h1:fCSHENf3usxIZmcjPWsvxOPc9bPyJGGeGhP3zpuLqu8=
+github.com/artnoi43/gsl v0.0.0-20230111150757-a89fdc6b03ca/go.mod h1:gorfvzKl2yZInhN36N4OpMDxc/aXWX7QZ0ileoehaz8=
 github.com/btcsuite/btcd/btcec/v2 v2.3.2 h1:5n0X6hX0Zk+6omWcihdYvdAlGf2DfasC0GMf7DClJ3U=
 github.com/btcsuite/btcd/btcec/v2 v2.3.2/go.mod h1:zYzJ8etWJQIv1Ogk7OzpWjowwOdXY1W/17j2MW85J04=
 github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 h1:q0rUy8C/TYNBQS1+CGKw68tLOFYSNEs0TFnxxnS9+4U=
