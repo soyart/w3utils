@@ -3,12 +3,12 @@ module github.com/artnoi43/w3utils
 go 1.19
 
 require (
+	github.com/artnoi43/gsl v0.0.0-20230110191511-0305657a8a3a
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/pkg/errors v0.9.1
 )
 
 require (
-	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
 	github.com/deckarep/golang-set v1.8.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 // indirect
@@ -22,6 +22,7 @@ require (
 	github.com/tklauser/numcpus v0.6.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/crypto v0.5.0 // indirect
+	golang.org/x/exp v0.0.0-20230108222341-4b8118a2686a // indirect
 	golang.org/x/sys v0.4.0 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 )

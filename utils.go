@@ -1,13 +1,19 @@
-package contracts
+package w3utils
 
 import (
+	"github.com/artnoi43/gsl/gslutils"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 )
 
-// AccrueEvents uses |eventKeys| to find corresponding `abi.Event` in |contractABI|
+// AccrueEvents uses |eventKeys| to find corresponding `abi.Event` in |contractABI|.
+// If eventKeys has length of 0, AccrueEvents returns all |contractABI.Events| events.
 func AccrueEvents(contractABI abi.ABI, eventKeys ...string) []abi.Event {
 	var events []abi.Event
+	if len(eventKeys) == 0 {
+		return gslutils.SliceFromMapValues(contractABI.Events)
+	}
+
 	for key, event := range contractABI.Events {
 		for _, eventKey := range eventKeys {
 			if key == eventKey {
