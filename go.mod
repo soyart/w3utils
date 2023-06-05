@@ -1,9 +1,9 @@
-module github.com/artnoi43/w3utils
+module github.com/soyart/w3utils
 
 go 1.19
 
 require (
-	github.com/artnoi43/gsl v0.0.0-20230111150757-a89fdc6b03ca
+	github.com/soyart/gsl v0.0.0-20230111150757-a89fdc6b03ca
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/pkg/errors v0.9.1
 )
