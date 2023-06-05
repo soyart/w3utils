@@ -3,9 +3,9 @@ module github.com/soyart/w3utils
 go 1.19
 
 require (
-	github.com/soyart/gsl v0.0.0-20230111150757-a89fdc6b03ca
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/pkg/errors v0.9.1
+	github.com/soyart/gsl v0.0.0-20230605125150-e1ff49dc1348
 )
 
 require (
@@ -22,7 +22,7 @@ require (
 	github.com/tklauser/numcpus v0.6.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/crypto v0.5.0 // indirect
-	golang.org/x/exp v0.0.0-20230108222341-4b8118a2686a // indirect
+	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1 // indirect
 	golang.org/x/sys v0.4.0 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 )
