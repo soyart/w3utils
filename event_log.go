@@ -1,7 +1,6 @@
 package w3utils
 
 import (
-	"fmt"
 	"reflect"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
@@ -41,7 +40,7 @@ func ExtractFieldFromUnpacked[T any](unpacked map[string]interface{}, field stri
 
 	value, ok := v.(T)
 	if !ok {
-		return t, fmt.Errorf("type assertion failed: field %s is not %s", field, reflect.TypeOf(t).String())
+		return t, errors.Wrapf(ErrTypeAssertion, "field %s is not %s", field, reflect.TypeOf(t).String())
 	}
 
 	return value, nil
